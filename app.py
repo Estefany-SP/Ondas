@@ -9,5 +9,5 @@ if op1=="Ondas Estacionarias":
   x=np.linspace(0,2*np.pi,150)
 #st.write(x)
   y=np.sin(n*x/2)
-  fig, ax = plt.subplots.()
+  fig, ax = plt.subplots()
   st.pyplot(fig)
